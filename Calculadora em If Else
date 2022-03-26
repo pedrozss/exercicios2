@@ -1,0 +1,39 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    double a,b;
+    String operacaoStr;
+    char operacao;
+
+    Scanner scan = new Scanner(System.in);
+
+    System.out.println("Escolha uma operação");
+    System.out.println("<A>dição");
+    System.out.println("<S>ubtração");
+    System.out.println("<M>ultiplicação");
+    System.out.println("<D>ivisão");
+    
+
+    operacaoStr = scan.next();
+    operacao = operacaoStr.charAt(0);
+    System.out.println("Escolha o primeiro número");
+    a = scan.nextDouble();
+    System.out.println("Escolha o segundo número");
+    b = scan.nextDouble();
+
+    if (operacao == 'a' || operacao == 'A'){
+      System.out.println("Adição = " + (a+b));
+    } else if (operacao == 's' || operacao == 'S'){
+      System.out.println("Subtração = " + (a-b));
+    } else if (operacao == 'm' || operacao == 'M'){
+      System.out.println("Multiplicação = " + (a*b));
+    } else if (operacao == 'd' || operacao == 'D'){
+      System.out.println("Divisão = " + (a/b));
+    } 
+
+    
+    
+       
+        
+  }
+}
