@@ -1,0 +1,50 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    String dia2;
+    char dia3;
+
+    Scanner scan = new Scanner(System.in);
+
+    System.out.println("Escolha o dia da semana");
+
+    System.out.println("1-Domingo");
+    System.out.println("2-Segunda");
+    System.out.println("3-Terça");
+    System.out.println("4-Quarta");
+    System.out.println("5-Quinta");
+    System.out.println("6-Sexta");
+    System.out.println("7-Sábado");
+
+    System.out.println("Digite o numero do dia");
+    dia2 = scan.next();
+    dia3 = dia2.charAt(0);
+    
+    
+
+    switch (dia3){
+        case '1':
+      System.out.println("Domingo = " + (dia3));
+      break;
+      case '2':
+      System.out.println("Segunda = " + (dia3));
+      case '3':
+      System.out.println("Terça = " + (dia3));
+      case '4':
+        System.out.println("Quarta = " + (dia3));
+      case '5':
+        System.out.println("Quinta = " + (dia3));
+      case '6':
+        System.out.println("Sexta = " + (dia3));
+
+        
+    }
+
+    
+
+    
+    
+       
+        
+  }
+}
