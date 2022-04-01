@@ -1,0 +1,42 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    String resposta;
+    char rspt;
+
+    Scanner scan = new Scanner(System.in);
+
+    System.out.println("__________ é um endereço de memória que proporciona um modo de acesso a uma variável sem referenciá-la, diretamente. Seu valor indica onde uma variável está armazenada, e não o que está armazenado. Qual das alternativas, a seguir, completa corretamente a lacuna?");
+    System.out.println("A- Bloco");
+    
+    System.out.println("B- Booleano");
+    
+    System.out.println("C- Ponteiro");
+    
+    System.out.println("D- TAD");
+
+    System.out.print("Resposta = ");
+    resposta = scan.next();
+    rspt = resposta.charAt(0);
+    
+    
+    switch (rspt)
+      {
+        case 'a':
+          System.out.println("Resposta incorreta");
+          break;
+        case 'b':
+          System.out.println("Resposta incorreta");
+          break;
+        case 'c':
+          System.out.println("Resposta Correta!");
+          break;
+        case 'd':
+          System.out.println("Resposta incorreta");
+          break;
+          
+      }
+
+    
+  }
+}
