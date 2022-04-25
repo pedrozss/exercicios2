@@ -1,0 +1,19 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    int nmr;
+
+    Scanner scan = new Scanner (System.in);
+
+    System.out.println("Digite um número");
+    nmr = scan.nextInt();
+
+    if (nmr <=0) {
+      System.out.println("Este é um número negativo");}
+    else if (nmr >=0){
+      System.out.println("Este é um número positivo");
+    }
+
+    
+  }
+}
